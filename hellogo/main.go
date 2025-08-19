@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/Xaitan/Go/mystrings"
+	"github.com/Xaitan80/go/mystrings"
 )
 
 func main() {
