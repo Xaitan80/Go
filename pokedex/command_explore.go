@@ -7,7 +7,7 @@ import (
 
 func commandExplore(cfg *config, args ...string) error {
 	if len(args) == 0 {
-		return errors.New("No location")
+		return errors.New("no location")
 	}
 	location := args[0]
 	locationResp, err := cfg.pokeapiClient.GetLocation(location)
